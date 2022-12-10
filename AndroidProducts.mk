@@ -1,14 +1,14 @@
 #
-# Copyright (C) 2021 The Android Open Source Project
-# Copyright (C) 2021 SebaUbuntu's TWRP device tree generator
+# Copyright (C) 2022 The Android Open Source Project
+# Copyright (C) 2022 SebaUbuntu's TWRP device tree generator
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_2034.mk
+    $(LOCAL_DIR)/twrp_2034.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_2034-user \
-    omni_2034-userdebug \
-    omni_2034-eng
+    twrp_2034-user \
+    twrp_2034-userdebug \
+    twrp_2034-eng
